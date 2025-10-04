@@ -7,19 +7,43 @@
     box-sizing: border-box;  // Faz o calculo correto dos tamanhos dos elementos
 }
 
-img{
-    width: 150px;
+body{
+    font-family: "Montserrat",sans-serif;
+    
 }
 
-.titulo{
-    color: red;
+header{
+    background-color: #a4161a;
+
 }
+
+h1{
+    color: #d3d3d3;
+    font-family: "Gravitas One",serif ;
+}
+
+a{
+    text-decoration: none;
+    color: #d3d3d3;
+    padding: 5px;
+}
+main{
+    background-color: #161a1d;
+}
+
+.card{
+    img{
+        width: 20vw;
+    }
+    h2{
+        color:#ba181b;
+    }
+}
+
+
 
 #btn1{
-    background-color: purple;
+    background-color: #b1a7a6;
 }
 
-body{
-    background-color: green;
-}
 
