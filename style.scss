@@ -20,7 +20,28 @@ header{
 h1{
     color: #d3d3d3;
     font-family: "Gravitas One",serif ;
+     text-align: center;
 }
+
+   
+
+    ul{
+        display: flex;  // ativa o flexbox e alinha os itens um ao lado outro
+        list-style: none;
+        justify-content: space-around;
+        padding: 20px;
+    }
+
+    h1{
+    color: #d3d3d3;
+    font-family: "Gravitas One",serif ;
+    font-size: 3rem;
+    }
+
+
+
+
+
 
 a{
     text-decoration: none;
@@ -36,14 +57,58 @@ main{
         width: 20vw;
     }
     h2{
+    .banner{
+        
+        background-image:url("https://img.freepik.com/vetores-gratis/cartaz-de-tempo-de-filme-de-cinema-horizontal-realista-com-carretel-de-badalo-de-bilhetes-de-lanches-de-oculos-3d-em-fundo-azul-com-ilustracao-vetorial-bokeh_1284-77013.jpg");
+        height:40vh; //    define o tamanho da imagem de fundo
+        background-size: cover; // controla a posição da imagem que será exibida
+        background-position: center;
+        background-repeat: no-repeat;
+        
+
+    }
+}
+
+#filmes{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+
+     // Para trabalharmos o eixo da altura
+    align-items: center;
+    flex-wrap: wrap;  //os itens vao ficar em linha, mas podem "quebrar" para a proxima linha
+    padding: 50px 130px;
+}
+
+.card{
+    box-shadow: rgba(99,99,99,0.2) 0px 2px 8px 0px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+
+
+    img{
+        max-width: 300px;
+        width: 30vw;
+        height: 45vh;
+        border-radius: 20px;
+    }
+    h2{
+        font-weight: 400;
+        padding: 10px;
         color:#ba181b;
     }
 }
 
-
-
-#btn1{
+button{
+    padding: 10px;
+    border: none;
     background-color: #b1a7a6;
+    border-radius: 10px;
 }
 
 
+
+
+
+}
